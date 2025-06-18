@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url("../slike/pozadina.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+}
+
+.naslov {
+  font-size: 48px;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.podnaslov {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.navigacija {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  margin: 0;
+}
+
+.navigacija li {
+  margin: 0 15px;
+}
+
+.navigacija a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  background-color: rgba(255,255,255,0.85);
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.omeni-slika {
+  width: 45%;
+  max-width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+main h2 {
+  margin-top: 40px;
+  font-size: 24px;
+  color: #222;
+}
+
+main img, main video, main embed {
+  display: block;
+  margin: 10px auto 30px auto;
+  max-width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+body {
+  background-image: url('../slike/pozadina.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
